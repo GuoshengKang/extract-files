@@ -1,16 +1,16 @@
-½«sourcefoldÎÄ¼ş¼ĞÏÂµÄËùÓĞÎÄ¼ş·Åµ½targetfoldÎÄ¼ş¼ĞÖĞ
-ÖØ¸´µÄÎÄ¼şÃûÇ°Ãæ¼ÓÇ°×º:copy_
+å°†sourcefoldæ–‡ä»¶å¤¹ä¸‹çš„æ‰€æœ‰æ–‡ä»¶æ”¾åˆ°targetfoldæ–‡ä»¶å¤¹ä¸­
+é‡å¤çš„æ–‡ä»¶åå‰é¢åŠ å‰ç¼€:copy_
 
 
-tuples=os.walk(fin_path) #·µ»ØÉú³ÉÆ÷
+tuples=os.walk(fin_path) #è¿”å›ç”Ÿæˆå™¨
 for tup in tuples:
   print tup
 
-Êä³ö:
+è¾“å‡º:
 ('E:\\extract-files\\sourcefold', ['smallfold_1', 'smallfold_2', 'smallfold_3'], ['file.txt', 'file_1-1.txt'])
 ('E:\\extract-files\\sourcefold\\smallfold_1', ['tinyfold_1-1'], ['file_1-1.txt', 'file_1-2.txt'])
 ('E:\\extract-files\\sourcefold\\smallfold_1\\tinyfold_1-1', [], ['file_1-1-1.txt'])
 ('E:\\extract-files\\sourcefold\\smallfold_2', [], ['file_1-1.txt', 'file_2-1.txt'])
 ('E:\\extract-files\\sourcefold\\smallfold_3', [], [])
 
-×¢:tup[2]Îªtup[0]Ä¿Â¼ÏÂÕ¦ÎÄ¼şÁĞ±í
+æ³¨:tup[2]ä¸ºtup[0]ç›®å½•ä¸‹çš„æ–‡ä»¶åˆ—è¡¨
