@@ -18,7 +18,7 @@ for tup in tuples:
   #dirnames:是dirpath子目录的名称列表;
   #filename:是dirpath中的非目录的名称列表.
   # print tup
-  files=tup[2]
+  files=tup[2] #tup[2]为tup[0]目录下的文件列表
   if files: #不为[]
     for file in files:
       sourcefile_path=os.path.join(tup[0], file)
