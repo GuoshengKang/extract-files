@@ -1,6 +1,9 @@
-### 功能描述：  
+### 功能描述 
 将sourcefold文件夹下的所有文件放到targetfold文件夹中  
 重复的文件名前面加前缀：copy_  
+___
+
+**代码**:
 ``` python
 tuples=os.walk(fin_path) #返回生成器
 for tup in tuples:
