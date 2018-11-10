@@ -1,3 +1,4 @@
+功能描述
 将sourcefold文件夹下的所有文件放到targetfold文件夹中
 重复的文件名前面加前缀:copy_
 
